@@ -1,1 +1,1 @@
-lol
+loadstring(game:HttpGet("https://raw.githubusercontent.com/0primeSkidsALot/Renosense-Script-Hub/main/Renosense%20Script%20Src%20Code", true))()
