@@ -10,6 +10,6 @@ local Universal = Window:NewTab("Main")
 local UniversalSection = Tab:NewSection("Main")
 
 UniversalSection:NewButton("Infinite Yield", "Infinite Yield", function()
-    loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/0primeSkidsALot/Renosense-Script-Hub/main/Scripts/Infinite%20Yield", true))()
     print("Infinite Yield Loaded!")
 end)
