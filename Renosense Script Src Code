@@ -1,0 +1,15 @@
+--Renosense Script Hub
+--Made by 0prime.zip#9331
+--go sub to 0prime
+--
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Renosense Script Hub", "Sentinel")
+
+--Main
+local Universal = Window:NewTab("Main")
+local UniversalSection = Tab:NewSection("Main")
+
+UniversalSection:NewButton("Infinite Yield", "Infinite Yield", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+    print("Infinite Yield Loaded!")
+end)
